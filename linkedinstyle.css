@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+} 
+    body{
+    background: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 40px;
+    align-items: center;
+}
+.logo{
+    color:darkblue;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 70px;
+}
+.logo span{
+    background:darkblue ;
+    color: white;
+    border-radius: 2px;
+}
+.navbuttons button{
+    padding: 4px 7px;
+    margin-left: 20px;
+    border-radius: 20px;
+    cursor:pointer;
+}
+.join{
+    background: none;
+    color: black;
+    border: 1px solid white;
+}
+.sign{
+    
+    color: darkblue;
+    border: 1px solid black;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    padding-left: 107px;
+}
+.left{
+    width:45%;
+}
+.left h1{
+    font-size: 44px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.left label{
+    display: block;
+    margin:7px 0 5px;
+}
+.left input{
+    width:100%;
+    padding: 12px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.forgot{
+    display: block;
+    margin:15px 0;
+    color:darkblue;
+    text-decoration: none;
+}
+.login{
+    width: 100%;
+    padding: 12px;
+    background: darkblue;
+    color: white;
+    border: none;
+    border-radius: 16px;
+}
+.or{
+    text-align: center;
+    margin: 15px 0;
+    color: #666;
+}
+.google,.new {
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    border: 1px solid #666;
+    background: none;
+    cursor: pointer;
+}
+.right{
+    width:45%;
+    margin-right: 100px;
+    padding: 50px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+}
+.right img{
+    width: 20;
+    height: 450px;
+    align-items: center;
+    padding-top: 170px;
+    padding-left: 250px;
+}
+.navbuttons a{
+    padding: 4px 7px;
+    margin-left: 5px;
+    border 1px solid #0a66c2;
+    cursor:pointer;
+    text-decoration: none;
+    color: black;
+}
